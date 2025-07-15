@@ -9,5 +9,7 @@ public class Main {
         System.out.println("Subtract: " + calc.subtract(5, 3));
         System.out.println("Multiply: " + calc.multiply(5, 3));
         System.out.println("Divide: " + calc.divide(5, 3));
+        int result = calc.modulus(10, 3);
+        System.out.println("Modulus result: " + result);
     }
 }

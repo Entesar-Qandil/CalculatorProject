@@ -1,6 +1,7 @@
 package Calculator;
 
 public class calculator {
+
     public int add(int a, int b) {
         return a + b;
     }
@@ -23,7 +24,4 @@ public class calculator {
     public int modulus(int a, int b) {
         return a % b;
     }
-
-
-
 }
