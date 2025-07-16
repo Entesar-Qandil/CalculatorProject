@@ -1,6 +1,7 @@
 package Calculator;
 
 public class calculator {
+
     public int add(int a, int b) {
         return a + b;
     }
@@ -19,4 +20,13 @@ public class calculator {
         }
         return a / b;
     }
+
+    public int modulus(int a, int b) {
+        return a % b;
+    }
+
+    public double average(int a, int b) {
+        return (a + b) / 2.0;
+    }
+
 }
